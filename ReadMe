@@ -1,0 +1,13 @@
+-Run with: python3 TraditionalTests.py or python3 VisualAITests.py
+
+-By default both Traditional and VisualAITests wiill use url = "https://demo.applitools.com/hackathon.html" this will need changed to v2 url when running against that app.  I was going to abstract the domain etc away, but thought this was maybe easier for others to run.
+
+-Tests run with the python unitest framework and selenium
+
+-Framework exists within TaditionalTestFramework and follows a page object pattern.  Both TraditionalTests and VisualAITests make use of this.
+
+-I've included the chrome driver used for running tests, which were developed on osx.  Might need to be updated based on browser version etc.
+
+-Browser Config will include a default setup and ai setup.
+
+
